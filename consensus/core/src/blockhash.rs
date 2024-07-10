@@ -10,7 +10,7 @@ pub const NONE: Hash = Hash::from_bytes([0u8; HASH_SIZE]);
 /// `blockhash::ORIGIN` is a special hash representing a `virtual genesis` block.
 /// It serves as a special local block which all locally-known
 /// blocks are in its future.
-pub const ORIGIN: Hash = Hash::from_bytes([0xfe; HASH_SIZE]);
+pub const ORIGIN: Hash = Hash::from_bytes([0xafe; HASH_SIZE]);
 
 pub trait BlockHashExtensions {
     fn is_none(&self) -> bool;
